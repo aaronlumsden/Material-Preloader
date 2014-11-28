@@ -54,7 +54,7 @@ You can then call the following functions to turn the preloader on & off
 ### materialPreloader Options
 
 | Option        | Required           | Description						| Options	  | Default 	|
-| ------------- |:------------------:|:--------------------------------:|-------------:-------------|
+| ------------- |--------------------|----------------------------------|-------------|-------------|
 | position	    | No		 		 | 	Position to place the preloader	| top/bottom  |	bottom   	|
 | height      	| No      	 		 | 	The height of the preloader bar	| any length  |	5px   		|
 | col_1      	| No      	 		 |  Color 1 option					| any color   |	#159756   	|

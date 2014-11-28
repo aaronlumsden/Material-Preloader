@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+html {
+    color:#000;
+    background:#f5f5f5;
+    font-family:'Roboto',sans-serif;
+    color:#333
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+fieldset,img {
+    border:0
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:400
+}
+
+li {
+    list-style:none
+}
+
+caption,th {
+    text-align:left
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:400
+}
+
+q:before,q:after {
+    content:''
+}
+
+abbr,acronym {
+    border:0;
+    font-variant:normal
+}
+
+sup {
+    vertical-align:text-top
+}
+
+sub {
+    vertical-align:text-bottom
+}
+
+input,textarea,select {
+    font-family:inherit;
+    font-size:inherit;
+    font-weight:inherit
+}
+
+input,textarea,select {
+    *font-size:100%
+}
+
+legend {
+    color:#000
+}
+
+* {
+    box-sizing:border-box;
+    moz-box-sizing:border-box
+}
+
+.clear {
+    display:block;
+    clear:both
+}
+
+#header {
+    width:100%;
+    height:64px;
+    box-shadow:0 2px 2px rgba(0,0,0,.2);
+    background:#fff
+}
+
+#box {
+    width:500px;
+    height:374px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-180px
+}
+
+#header ul li {
+    float:left
+}
+
+#header ul {
+    float:right;
+    margin-top:20px
+}
+
+#header ul li a {
+    font-size:12px;
+    color:#333;
+    padding:20px;
+    text-decoration:none
+}
+
+#header ul li a:hover {
+    color:#3b78e7
+}
+
+#buttons {
+    width:350px;
+    margin:0 auto;
+    margin-bottom:120px;
+    margin-top:40px
+}
+
+#buttons li {
+    float:left;
+    margin-left:10px;
+    margin-right:10px
+}
+
+#buttons li a {
+    width:150px;
+    display:block;
+    height:40px;
+    line-height:2.333;
+    border:2px solid #3b78e7;
+    font-weight:700;
+    color:#3b78e7;
+    border-radius:3px;
+    text-align:center;
+    text-decoration:none
+}
+
+#buttons li a:hover {
+    border:2px solid #da4733;
+    color:#da4733
+}
+
+img {
+    max-width:100px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:20px
+}
+
+h1 {
+    font-size:36px;
+    font-weight:300;
+    text-align:center;
+    margin-bottom:20px
+}
+
+h2 {
+    font-size:25px;
+    font-weight:300;
+    text-align:center;
+    margin-bottom:20px
+}
+
+p {
+    text-align:center;
+    margin-bottom:20px;
+    line-height:1.5
+}
+
+p a {
+    color:#3b78e7;
+    text-decoration:none
+}
+
+p a:hover {
+    color:#da4733
+}
+
+@media only screen and (max-width : 400px) {
+#box {
+    position:static;
+    margin-left:0;
+    margin-top:20px;
+    width:100%;
+    padding:20px
+}
+
+h1 {
+    font-size:18px
+}
+
+p {
+    font-size:12px
+}
+
+#buttons li {
+    float:none;
+    margin-bottom:20px
+}
+
+#buttons {
+    width:100%;
+    margin-bottom:0
+}
+
+#buttons li a {
+    width:100%
+}
+}

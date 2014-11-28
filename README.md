@@ -3,9 +3,9 @@ Material Design Preloader
 
 A jQuery plugin that recreates the Material Design preloader (as seen on inbox).
 
-[View Demo](http://codepen.io/aaronlumsden/full/RNPqwa)
+[View Demo](http://git.aaronlumsden.com/material/)
 
-![materialPreloader.js](http://tinypic.com/r/mj60lw/8)
+![materialPreloader.js](http://i60.tinypic.com/mj60lw.jpg)
 
 I was fascinated when I first saw the preloader for Google's inbox website so I thought I'd recreate it and turn it into a plugin so that others can use it in their app or website. 
 

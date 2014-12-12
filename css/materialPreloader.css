@@ -2,7 +2,16 @@
     position:fixed;
     bottom:0;
     height:5px;
-    width:100%
+    width:100%;
+    opacity: 1;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+
+.load-bar.invisible {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
 }
 
 .load-bar-container {

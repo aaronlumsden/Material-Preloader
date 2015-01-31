@@ -1,4 +1,4 @@
-Material Design Preloader
+Material Design Preloader!s
 =============
 
 A jQuery plugin that recreates the Material Design preloader (as seen on inbox).

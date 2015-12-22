@@ -3,7 +3,6 @@ Material Design Preloader!s
 
 A jQuery plugin that recreates the Material Design preloader (as seen on inbox).
 
-[View Demo](http://git.aaronlumsden.com/material/)
 
 ![materialPreloader.js](http://i60.tinypic.com/mj60lw.jpg)
 

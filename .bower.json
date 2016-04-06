@@ -12,6 +12,10 @@
     "branch": "master",
     "commit": "896403cf2bb33e55504b51ea5114fa3a4b40a697"
   },
+  "main": [
+      "css/materialPreloader.min.css",
+      "js/materialPreloader.min.js"
+  ],
   "_source": "git://github.com/aarondo/Material-Preloader.git",
   "_target": "*",
   "_originalSource": "material-preloader",
